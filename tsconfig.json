@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "include": [
+    "src/**/*.ts", // Projenizin TypeScript dosyaları için örnek include ayarı
+    "cypress/**/*.ts" // Cypress test dosyalarınız için include ayarı
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
